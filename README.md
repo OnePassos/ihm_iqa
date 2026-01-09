@@ -22,7 +22,7 @@ python ihm_iqa.py
 
 Funcionalidades Implementadas:
 
-Entrada Assistida: Campos validados para os 9 parâmetros fundamentais.
+Entrada Assistida: Campos validados para os 10 parâmetros fundamentais.
 
 Correção Termodinâmica: Integração de Altitude e Temperatura para o cálculo exato da saturação de oxigênio.
 
