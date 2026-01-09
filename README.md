@@ -12,8 +12,6 @@ Instale o pacote localmente usando o Bash/cmd:
 
 pip install .
 
-Verifique a autoria e versão:
-
 pip show ihm_iqa (Isso confirmará o registro)
 
 Como Utilizar: 
@@ -25,6 +23,7 @@ python ihm_iqa.py
 Funcionalidades Implementadas:
 
 Entrada Assistida: Campos validados para os 9 parâmetros fundamentais.
+
 Correção Termodinâmica: Integração de Altitude e Temperatura para o cálculo exato da saturação de oxigênio.
 
 Poka-Yoke Informativo: Alertas automáticos baseados na CONAMA Classe 2, explicando fenômenos como Eutrofização e Anoxia.
@@ -34,8 +33,7 @@ Saída Multiformato: Retorno do valor numérico do IQA e sua classificação qua
 
 🛠️ Tecnologias Utilizadas
 Linguagem: Python 3.
-GUI: CustomTkinter (Interface Moderna/Dark Mode).
 
-Motor de Cálculo: Baseado no pacote iqa_calculator.
+GUI: CustomTkinter (Interface Moderna/Dark Mode).
 
 Gerenciamento: Setuptools para distribuição de pacotes.
