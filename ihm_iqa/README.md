@@ -1,13 +1,13 @@
 # Calculadora de IQA  ·  WQI Calculator
 
-**iqa_calculator** é um pacote Python para calcular o Índice de Qualidade da Água (IQA) — também chamado Water Quality Index (WQI). Usa a fórmula CETESB e permite ajustar os nove pesos quando necessário.
+**iqa_calculator** é um pacote Python para calcular o Índice de Qualidade da Água (IQA) — também chamado Water Quality Index (WQI). Usa a fórmula CETESB/CONAMA e permite ajustar os nove pesos quando necessário.
 
 ---
 
 ## Instalação / Installation
 
 ```bash
-python -m pip install iqa_calculator
+python -m pip install ihm_iqa
 ```
 
 ---
@@ -143,13 +143,3 @@ print(result)
 A classificação segue o limiar CETESB:
 `≤19` Péssima | `≤36` Ruim | `≤51` Regular | `≤79` Boa | `>79` Ótima.
 ---
-
-## Licença / License
-
-Distribuído sob [MIT](LICENSE).
-
----
-
-## Contribuições / Contributions
-
-Pull requests e issues são bem‑vindos! Abra um *issue* ou envie uma *PR* no [GitHub](https://github.com/seuusuario/iqa_calculator).
