@@ -9,7 +9,33 @@
 ```bash
 python -m pip install ihm_iqa
 ```
+## 🖥️ Como Executar a Interface
+Para abrir a interface gráfica do projeto, utilize o comando na pasta raiz do projeto (ihm_iqa):
 
+```bash
+python ihm_iqa.py
+```
+Se você baixou o projeto como ZIP ou clonou o repositório, siga estes passos para registrar o pacote ihm_iqa no seu Python:
+
+Abra o Terminal (CMD ou PowerShell).
+
+Navegue até a pasta do projeto (onde você extraiu os arquivos):
+
+```bash
+cd C:\Caminho\Para\A\Pasta\ihm_iqa-main\ihm_iqa
+```
+(Dica: Você pode digitar cd e arrastar a pasta para dentro do terminal).
+
+Execute a instalação usando o ponto (.), que indica ao pip para procurar o setup.py no diretório atual:
+
+```bash
+pip install .
+```
+Valide a instalação para ver os créditos do desenvolvedor:
+
+```bash
+pip show ihm_iqa
+```
 ---
 
 ## Exemplos (coincidentes com a suíte de testes)
