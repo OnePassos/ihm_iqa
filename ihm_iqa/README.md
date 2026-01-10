@@ -10,7 +10,7 @@
 python -m pip install ihm_iqa
 ```
 ## 🖥️ Como Executar a Interface
-Para abrir a interface gráfica do projeto, utilize o comando:
+Para abrir a interface gráfica do projeto, utilize o comando na pasta raiz do projeto (ihm_iqa):
 
 ```bash
 python ihm_iqa.py
